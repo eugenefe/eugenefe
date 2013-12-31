@@ -1,3 +1,4 @@
+package com.eugenefe.mvfeed;
 /**
  * 
  */
@@ -5,4 +6,3 @@
  * @author takion77
  *
  */
-package com.eugenefe.mvfeed;

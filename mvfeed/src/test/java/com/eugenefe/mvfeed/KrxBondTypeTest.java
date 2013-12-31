@@ -1,27 +1,19 @@
 package com.eugenefe.mvfeed;
 
-import java.io.FileNotFoundException;
+
 import java.io.IOException;
-import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-
-
-import org.codehaus.jackson.map.util.JSONPObject;
-import org.jsoup.Connection;
-import org.jsoup.Connection.Method;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.jsoup.nodes.Entities;
 import org.jsoup.select.Elements;
-import org.jsoup.select.Evaluator.MatchesOwn;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.eugenfe.jsoup.KrxBondType;
+import com.eugenefe.mvfeed.krx.KrxBondType;
 
 
 public class KrxBondTypeTest {

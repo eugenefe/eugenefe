@@ -1,32 +1,25 @@
-package com.eugenefe.flight;
-import java.io.IOException;
-import java.lang.reflect.Field;
-import java.net.URI;
-import java.util.List;
-import java.util.Map;
+package com.eugenefe.mvfeed;
 
-import org.apache.http.client.utils.URIBuilder;
+import java.io.IOException;
+import java.util.List;
+
 import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.util.EntityUtils;
 import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.eugenefe.mvfeed.others.CurrencyConverter;
+import com.eugenefe.mvfeed.quandl.QDataset;
+import com.mashape.unirest.http.HttpResponse;
+import com.mashape.unirest.http.JsonNode;
+import com.mashape.unirest.http.Unirest;
 //import org.json.simple.JSONArray;
 //import org.json.simple.JSONObject;
 //import org.json.simple.parser.JSONParser;
 //import com.mashape.unirest.http.HttpResponse;
-
-import com.eugenefe.currencyconverter.CurrencyConverter;
-import com.eugenefe.quandl.QDataset;
-import com.mashape.unirest.http.HttpResponse;
-import com.mashape.unirest.http.JsonNode;
-import com.mashape.unirest.http.Unirest;
 
 public class TestUnirest {
 //	private static Loggerr logger = Logger.getLogger("MainTest");

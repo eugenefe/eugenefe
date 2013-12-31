@@ -1,22 +1,14 @@
-package com.eugenefe.flight;
+package com.eugenefe.mvfeed;
+
 
 import java.io.FileNotFoundException;
-import java.util.Map;
-import java.util.Set;
+
+import javassist.compiler.ast.Variable;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.webharvest.definition.BaseElementDef;
-import org.webharvest.definition.DefinitionResolver;
-import org.webharvest.definition.LoopDef;
 import org.webharvest.definition.ScraperConfiguration;
-import org.webharvest.definition.VarDefDef;
 import org.webharvest.runtime.Scraper;
-import org.webharvest.runtime.ScraperContext;
-import org.webharvest.runtime.processors.plugins.XmlToJsonPlugin;
-import org.webharvest.runtime.variables.ListVariable;
-import org.webharvest.runtime.variables.NodeVariable;
-import org.webharvest.runtime.variables.Variable;
 
 public class HarvestTest {
 	private final static Logger logger = LoggerFactory.getLogger(HarvestTest.class);

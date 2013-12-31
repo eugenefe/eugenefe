@@ -1,5 +1,6 @@
 package com.eugenefe.mvfeed;
 
+
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -8,7 +9,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
-import java.util.Map.Entry;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -17,7 +17,7 @@ import org.jsoup.select.Elements;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.eugenfe.jsoup.Walton;
+import com.eugenefe.mvfeed.others.Walton;
 
 public class WaltonPageTest {
 	private final static Logger logger = LoggerFactory.getLogger("WaltonPageTest");

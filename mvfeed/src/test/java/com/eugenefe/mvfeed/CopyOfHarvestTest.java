@@ -1,4 +1,5 @@
-package com.eugenefe.flight;
+package com.eugenefe.mvfeed;
+
 
 import java.io.FileNotFoundException;
 import java.util.Map;

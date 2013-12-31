@@ -1,4 +1,5 @@
-package com.eugenefe.flight;
+package com.eugenefe.mvfeed;
+
 import java.net.URI;
 
 import org.apache.http.HttpEntity;

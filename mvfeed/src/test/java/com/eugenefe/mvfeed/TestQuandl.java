@@ -1,35 +1,19 @@
-package com.eugenefe.flight;
-import java.io.IOException;
-import java.lang.reflect.Field;
-import java.net.URI;
-import java.util.Map;
+package com.eugenefe.mvfeed;
 
-import org.apache.http.client.utils.URIBuilder;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.util.EntityUtils;
-import org.codehaus.jackson.JsonGenerationException;
+import java.io.IOException;
+
 import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.map.JsonMappingException;
-import org.codehaus.jackson.map.ObjectMapper;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.eugenefe.mvfeed.quandl.QDataset;
+import com.eugenefe.mvfeed.quandl.QDatasetList;
+import com.eugenefe.mvfeed.quandl.QuandlConnection;
 //import org.json.simple.JSONArray;
 //import org.json.simple.JSONObject;
 //import org.json.simple.parser.JSONParser;
 //import com.mashape.unirest.http.HttpResponse;
-
-import com.eugenefe.currencyconverter.CurrencyConverter;
-import com.eugenefe.quandl.QDataSource;
-import com.eugenefe.quandl.QDataset;
-import com.eugenefe.quandl.QDatasetList;
-import com.eugenefe.quandl.QMultiset;
-import com.eugenefe.quandl.QuandlConnection;
-import com.mashape.unirest.http.HttpResponse;
-import com.mashape.unirest.http.JsonNode;
-import com.mashape.unirest.http.Unirest;
 
 public class TestQuandl {
 //	private static Loggerr logger = Logger.getLogger("MainTest");

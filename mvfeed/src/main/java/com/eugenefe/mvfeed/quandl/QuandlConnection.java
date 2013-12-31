@@ -3,14 +3,21 @@ package com.eugenefe.mvfeed.quandl;
 import java.io.IOException;
 import java.util.Map;
 
-import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.ResponseHandler;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.BasicResponseHandler;
+import org.apache.http.impl.client.DefaultHttpClient;
 import org.codehaus.jackson.JsonGenerationException;
-import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
-import org.omg.CORBA.portable.ResponseHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.mashape.unirest.http.HttpResponse;
+import com.mashape.unirest.http.JsonNode;
+import com.mashape.unirest.http.Unirest;
+
 
 public class QuandlConnection {
 	private final static Logger logger = LoggerFactory.getLogger(QuandlConnection.class);

@@ -3,6 +3,8 @@ package com.eugenefe.mvfeed.quandl;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.json.JSONArray;
+
 public class QEntry {
 
 	private String date;

@@ -1,4 +1,5 @@
-package com.eugenefe.flight;
+package com.eugenefe.mvfeed;
+
 import java.io.IOException;
 import java.net.URI;
 
@@ -14,6 +15,15 @@ import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.json.JSONArray;
 import org.json.JSONObject;
+
+import com.eugenefe.mvfeed.others.FlightHop;
+import com.eugenefe.mvfeed.others.FlightItinerary;
+import com.eugenefe.mvfeed.others.FlightLeg;
+import com.eugenefe.mvfeed.others.FlightSegment;
+import com.eugenefe.mvfeed.others.GeocodeResponse;
+import com.eugenefe.mvfeed.others.Place;
+import com.eugenefe.mvfeed.others.Route;
+import com.eugenefe.mvfeed.others.SearchResponse;
 //import org.json.simple.JSONArray;
 //import org.json.simple.JSONObject;
 //import org.json.simple.parser.JSONParser;

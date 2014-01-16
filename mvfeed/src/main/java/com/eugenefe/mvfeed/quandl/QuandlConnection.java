@@ -115,11 +115,21 @@ public class QuandlConnection {
 	public QDatasetList getCodeQuery(String query) {
 		String url;
 		if (isToken) {
-			url = queryUrl + token + "&query=" + query;
+			url = queryUrl + token + "&query=" + query ;
+//			url = queryUrl + token + "&query=" + query + "&page=40";
 			return requestQDatasetList(url);
 		}
 		return null;
 	}
+	public QDatasetList getCodeQuery(String query, int pageNo) {
+		String url;
+		if (isToken) {
+			url = queryUrl + token + "&query=" + query+ "&page=" + String.valueOf(pageNo);
+			return requestQDatasetList(url);
+		}
+		return null;
+	}
+	
 
 	public QMultiset getMultiData(String multiset) {
 		String url;
@@ -170,7 +180,7 @@ public class QuandlConnection {
 		String output = this
 				.curl("http://www.quandl.com/api/v1/current_user/collections/datasets/favourites.json?auth_token="
 						+ token);
-
+		System.out.println("connection:" + output);
 		if (output.contains("Unauthorized")) {
 			System.out
 					.println("BAD TOKEN!!! Check your token under http://www.quandl.com/users/edit Click \"API\" and use the token specified");

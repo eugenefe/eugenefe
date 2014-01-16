@@ -21,26 +21,41 @@ import com.eugenefe.util.HibernateUtil;
 //@JsonIgnoreProperties(ignoreUnknown=true)
 @Entity
 @Table(name = "QDATA_MASTER")
-public class QDataset {
+public class QDataset2 {
 	
+	 @Id
+	 @Column(name = "Q_ID", unique = true, nullable = false, length = 20)
     private String id;
+	 @Column(name = "Q_NAME", unique = true, nullable = false, length = 50)
 	 private String name;
+    @Column(name = "Q_CODE", unique = true, nullable = false, length = 10)
     private String code;
+    @Column(name = "Q_SOURCE_CODE", unique = true, nullable = false, length =20)
     private String source_code;
+    @Column(name = "Q_TYPE", unique = true, nullable = false, length =20)
     private String type ;
     
+    @Column(name = "URL", unique = true, nullable = false, length =100)
     private String display_url;
     
+    @Column(name = "URL_QUERY", unique = true, nullable = false, length =100)
     private String urlize_name;
+    @Column(name = "DESCRIPTION", unique = true, nullable = false, length =250)
     private String description;
     
+    @Transient
     private String updated_at;
     
+    @Column(name = "FREQUENCY", unique = true, nullable = false, length =20)
 	private String frequency;
+    @Column(name = "FROM_DATE", unique = true, nullable = false, length =20)
     private String from_date;
+    @Column(name = "TO_DATE", unique = true, nullable = false, length =20)
     private String to_date;
     
+    @Transient
     private List<String> column_names = new ArrayList<String>();
+    @Transient
     private List<List<String>> data = new ArrayList<List<String>>();
     
 //    private List<Map<String, String>> 
@@ -53,7 +68,7 @@ public class QDataset {
 //    private String rawData;
 //    private List<QEntry> dataset = new ArrayList<QEntry>();
     public String error;
-    public QDataset() {
+    public QDataset2() {
     }
 
 	public String getId() {

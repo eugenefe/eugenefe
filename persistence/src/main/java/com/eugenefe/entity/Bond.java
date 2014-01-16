@@ -33,7 +33,7 @@ public class Bond  implements java.io.Serializable {
 	private String bondId;
 	private MarketVariable marketVariable;
 	private String issuerId;
-	private Long faceAmt;
+	private BigDecimal faceAmt;
 	private BigDecimal totalAmt;
 	private String issueDate;
 	private String maturityDate;
@@ -52,8 +52,8 @@ public class Bond  implements java.io.Serializable {
 	private String redemMcd;
 	private String amortStDate;
 	private String deferTerm;
-	private Long amortCnt;
-	private Long amortFreq;
+	private BigDecimal amortCnt;
+	private BigDecimal amortFreq;
 	private BigDecimal amortAmt;
 	private Character isCpPrepay;
 	private String refIrcId;
@@ -173,11 +173,11 @@ public class Bond  implements java.io.Serializable {
 
 	@Column(name = "FACE_AMT", precision = 10, scale = 0)
 	@AnnoMethodTree(order=50, init=true, align="right")
-	public Long getFaceAmt() {
+	public BigDecimal getFaceAmt() {
 		return this.faceAmt;
 	}
 
-	public void setFaceAmt(Long faceAmt) {
+	public void setFaceAmt(BigDecimal faceAmt) {
 		this.faceAmt = faceAmt;
 	}
 
@@ -377,21 +377,21 @@ public class Bond  implements java.io.Serializable {
 
 	@Column(name = "AMORT_CNT", precision = 10, scale = 0)
 	@AnnoMethodTree(order=67, init=true, align ="right", type=EColumnType.Number)
-	public Long getAmortCnt() {
+	public BigDecimal getAmortCnt() {
 		return this.amortCnt;
 	}
 
-	public void setAmortCnt(Long amortCnt) {
+	public void setAmortCnt(BigDecimal amortCnt) {
 		this.amortCnt = amortCnt;
 	}
 
 	@Column(name = "AMORT_FREQ", precision = 10, scale = 0)
 	@AnnoMethodTree(order=68, init=true, align ="right", type=EColumnType.Number)
-	public Long getAmortFreq() {
+	public BigDecimal getAmortFreq() {
 		return this.amortFreq;
 	}
 
-	public void setAmortFreq(Long amortFreq) {
+	public void setAmortFreq(BigDecimal amortFreq) {
 		this.amortFreq = amortFreq;
 	}
 

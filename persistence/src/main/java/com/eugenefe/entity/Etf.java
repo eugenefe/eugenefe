@@ -20,6 +20,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.Parameter;
+import org.hibernate.annotations.Type;
 
 import com.eugenefe.util.AnnoMethodTree;
 import com.eugenefe.util.AnnoNavigationFilter;
@@ -38,8 +39,8 @@ public class Etf implements java.io.Serializable {
 	private String etfName;
 	private String isinCd;
 	private BigDecimal bmCoefficient;
-	private Long numPerCu;
-	private Long numShares;
+	private BigDecimal numPerCu;
+	private BigDecimal numShares;
 	private BigDecimal totAmt;
 	private String sourceTable;
 	private String userName;
@@ -143,23 +144,23 @@ public class Etf implements java.io.Serializable {
 		this.bmCoefficient = bmCoefficient;
 	}
 
-	@Column(name = "NUM_PER_CU", precision = 10, scale = 0)
+	@Column(name = "NUM_PER_CU", precision = 10, scale = 1)
 	@AnnoMethodTree(order=31, init=true, align="right")
-	public Long getNumPerCu() {
+	public BigDecimal getNumPerCu() {
 		return this.numPerCu;
 	}
 
-	public void setNumPerCu(Long numPerCu) {
+	public void setNumPerCu(BigDecimal numPerCu) {
 		this.numPerCu = numPerCu;
 	}
 
 	@Column(name = "NUM_SHARES", precision = 10, scale = 0)
 	@AnnoMethodTree(order=35, init=true, align="right")
-	public Long getNumShares() {
+	public BigDecimal getNumShares() {
 		return this.numShares;
 	}
 
-	public void setNumShares(Long numShares) {
+	public void setNumShares(BigDecimal numShares) {
 		this.numShares = numShares;
 	}
 

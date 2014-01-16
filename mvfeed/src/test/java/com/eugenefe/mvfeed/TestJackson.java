@@ -77,6 +77,7 @@ public class TestJackson {
 	        builder.setParameter("flags", "0x000FFFFC");
 	        
 	        URI uri = builder.build(); 
+	        	System.out.println("url ;"+  uri.getQuery());
 	        HttpGet request = new HttpGet(uri); 
 	        HttpResponse response = httpclient.execute(request); 
 	        HttpEntity entity = response.getEntity(); 
@@ -109,6 +110,7 @@ public class TestJackson {
 
 	        URI uri = builder.build(); 
 	        HttpGet request = new HttpGet(uri); 
+	        System.out.println("uri :" + uri.getQuery());
 	        HttpResponse response = httpclient.execute(request); 
 	        HttpEntity entity = response.getEntity(); 
 	        if (entity != null) { 

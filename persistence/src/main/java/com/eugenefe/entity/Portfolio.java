@@ -17,8 +17,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
-import org.jboss.seam.annotations.Logger;
-import org.jboss.seam.log.Log;
+//import org.jboss.seam.annotations.Logger;
+//import org.jboss.seam.log.Log;
 
 import com.eugenefe.util.AnnoMethodTree;
 import com.eugenefe.util.AnnoNavigationFilter;

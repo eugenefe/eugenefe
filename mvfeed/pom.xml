@@ -65,9 +65,14 @@
   </build>
   
   <dependencies>
+    <!-- <dependency>
+      <groupId>com.eugenefe</groupId>
+      <artifactId>persisence</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency> -->
     <dependency>
       <groupId>com.eugenefe</groupId>
-      <artifactId>persistence</artifactId>
+      <artifactId>pershiber</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
     <dependency>

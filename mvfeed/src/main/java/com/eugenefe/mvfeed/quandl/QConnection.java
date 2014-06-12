@@ -79,6 +79,7 @@ public class QConnection {
 			HttpResponse response = httpclient.execute(request);
 			HttpEntity entity = response.getEntity();
 			if (entity != null) {
+//				System.out.println("EntityUtil:" + EntityUtils.toString(entity));
 				QDataset rst = mapper.readValue(EntityUtils.toString(entity),
 						QDataset.class);
 				return rst;
@@ -101,6 +102,7 @@ public class QConnection {
 		try {
 			URIBuilder builder = new URIBuilder(queryUrl);
 			for (Map.Entry<String, String> entry : params.entrySet()) {
+//				System.out.println("Map :" + entry.getKey() + "_"+ entry.getValue());
 				builder.setParameter(entry.getKey(), entry.getValue());
 			}
 			URI uri = builder.build();
@@ -108,7 +110,9 @@ public class QConnection {
 			HttpResponse response = httpclient.execute(request);
 			HttpEntity entity = response.getEntity();
 			if (entity != null) {
+//				System.out.println("Result before"+ EntityUtils.toString(entity));
 				rst = mapper.readValue(EntityUtils.toString(entity),QDatasetList.class);
+//				System.out.println("Result:"+ rst);
 				return rst;
 			} else {
 				return null;
@@ -126,6 +130,7 @@ public class QConnection {
 		
 		params.put(EQuandlParam.ID.getParamString(), authToken);
 		params.put(EQuandlParam.QUERY.getParamString(), query);
+		System.out.println("In the Connection");
 		return getCodeQuery(params);
 	}
 

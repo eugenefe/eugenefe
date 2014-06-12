@@ -12,10 +12,10 @@ public class HtmlParserTest {
 
 	public static void main(String[] args) {
  
-//		googleTest();
+		googleTest();
 //		yahooTest();
 //		metaTest();
-		faviconTest();
+//		faviconTest();
  
   }
 	

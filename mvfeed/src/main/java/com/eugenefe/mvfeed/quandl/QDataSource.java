@@ -1,5 +1,7 @@
 package com.eugenefe.mvfeed.quandl;
 
+import org.codehaus.jackson.annotate.JsonIgnore;
+
 public class QDataSource {
 	private String id;
 	private String host;
@@ -7,6 +9,23 @@ public class QDataSource {
 	private String name;
 	private String code;
 	private int	datasets_count;
+	@JsonIgnore
+	private String concurrency;
+	@JsonIgnore
+	private String use_proxy;
+	
+	public String getUse_proxy() {
+		return use_proxy;
+	}
+	public void setUse_proxy(String use_proxy) {
+		this.use_proxy = use_proxy;
+	}
+	public String getConcurrency() {
+		return concurrency;
+	}
+	public void setConcurrency(String concurrency) {
+		this.concurrency = concurrency;
+	}
 	public String getId() {
 		return id;
 	}

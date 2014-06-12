@@ -37,7 +37,7 @@ public class TestJackson {
 	 */
 	public static void main(String[] args) {
 //		getFlightSearchData();
-//    	romeToRio();
+    	romeToRio();
 //    	romeToRioGeo();
 //    	romeToRioJackson();
 //		getGeoSearchData();
@@ -88,7 +88,7 @@ public class TestJackson {
 	    }
 	    catch(Exception e) 
 	    { 
-	        System.out.println(e.getMessage()); 
+	        System.out.println("Error:" + e.getMessage()); 
 	        return null;
 	    } 
 	}

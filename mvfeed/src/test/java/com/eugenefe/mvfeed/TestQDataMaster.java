@@ -37,16 +37,16 @@ public class TestQDataMaster {
 //		String qCode ="FUTURE_C1";
 //		setQDataMaster(source, qCode);
 
-//		String searchString = "2013";
-//		int max = 3656;
-//		int stIndex = 1;
-//		int maxIndex = stIndex +1000;
+		String searchString = "ETF";
+		int max = 3656;
+		int stIndex = 1;
+		int maxIndex = stIndex +1000;
 //		
-//		for(int i =stIndex ; i<maxIndex; i++){
-//			setQDataMaster(searchString, i);
-//		}
+		for(int i =stIndex ; i<maxIndex; i++){
+			setQDataMaster(searchString, i);
+		}
 		
-		setQDataMasterFile(fileName);
+//		setQDataMasterFile(fileName);
 		
 //		for (String aa : getQcodeFromFile(fileName)){
 //			logger.info("QCode:{}", aa);

@@ -24,17 +24,19 @@ import com.eugenefe.util.HibernateUtil;
 public class QDataset {
 	
     private String id;
-	 private String name;
-    private String code;
     private String source_code;
-    private String type ;
-    
+    private String source_name;
+    private String code;
+	private String name;
+	private String urlize_name;
+//	@JsonIgnore
+	private String description;
+
+	private String updated_at;
+	private String type ;
     private String display_url;
     
-    private String urlize_name;
-    private String description;
     
-    private String updated_at;
     
 	private String frequency;
     private String from_date;
@@ -45,6 +47,7 @@ public class QDataset {
     
 //    private List<Map<String, String>> 
 //    private List<QData> data = new ArrayList<QData>();
+    @JsonIgnore
     private boolean _private;
 //    private String errors;
     @JsonIgnore
@@ -52,7 +55,9 @@ public class QDataset {
     public List<String> errors;
 //    private String rawData;
 //    private List<QEntry> dataset = new ArrayList<QEntry>();
+    @JsonIgnore
     public String error;
+    
     public QDataset() {
     }
 
@@ -66,6 +71,14 @@ public class QDataset {
 
 	public String getSource_code() {
 		return source_code;
+	}
+
+	public String getSource_name() {
+		return source_name;
+	}
+
+	public void setSource_name(String source_name) {
+		this.source_name = source_name;
 	}
 
 	public void setSource_code(String source_code) {

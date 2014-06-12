@@ -23,12 +23,12 @@ public class KrxBondMasterTest {
 	
 	public static void main(String[] args) {
 		
-//		bondMasterTest();
+		bondMasterTest();
 //		bondDivCdTest();
-		 for ( KrxBondType aa : jsonTest()){
-			 logger.info("Bond: {},{}", aa.getType(), aa.getTypeName());
-			 logger.info("Bond: {},{}", aa.getDivType(), aa.getDivTypeName());
-		 }
+//		 for ( KrxBondType aa : jsonTest()){
+//			 logger.info("Bond: {},{}", aa.getType(), aa.getTypeName());
+//			 logger.info("Bond: {},{}", aa.getDivType(), aa.getDivTypeName());
+//		 }
 //		 getKrxData();
   }
 	
@@ -155,12 +155,14 @@ public class KrxBondMasterTest {
 			logger.info("Detail: {}", properties.getProperty("krxBondInfo"));
 			
 			// need http protocol
-//			doc = Jsoup.connect(properties.getProperty("krxBondMaster"))
-			doc = Jsoup.connect("http://www.krx.co.kr/por_kor/popup/JHPKOR13008_01.jsp")
+			doc = Jsoup.connect(properties.getProperty("krxBondMaster"))
+//			doc = Jsoup.connect("http://www.krx.co.kr/por_kor/popup/JHPKOR13008_01.jsp")
+//			doc = Jsoup.connect("http://www.krx.co.kr/por_kor/popup/JHPKOR05010_01.jsp")
 //					.get();
 						.data("charOrder", "0")
+//						.data("iss_inst_nm", "현대")
 						.data("sqlGubun", "sel")
-						.timeout(1000000)
+						.timeout(100000000)
 //						.userAgent("Mozilla")
 //						.userAgent("Mozilla/5.0 (Windows; U; WindowsNT 5.1; en-US; rv1.8.1.6) Gecko/20070725 Firefox/2.0.0.6")
 						.post();
@@ -172,8 +174,10 @@ public class KrxBondMasterTest {
 			
 			Elements _rows = doc.select("table[id = tbl1]> tbody>tr");
 			
-			System.out.println("Table : "+ _rows);
-//			
+//			System.out.println("Table : "+ _rows);
+			for(int i=0 ; i< _rows.size(); i++){
+				logger.info("Table : {}", _rows.get(i));
+			}
 			logger.info("Html Size : {}", _rows.size());
 			
 			for( Element _row : _rows){

@@ -1,7 +1,10 @@
 package com.eugenefe.mvfeed.isin;
 
+import com.eugenefe.mvfeed.enums.EIsinProdType;
+
 public class IsinMaster {
 	private String prodType;
+	private EIsinProdType eprodType;
 	private String prodId;
 	private String prodName;
 	private String issuer;
@@ -21,11 +24,21 @@ public class IsinMaster {
 	public void setProdType(String prodType) {
 		this.prodType = prodType;
 	}
+	
+	
+	
+
+	public EIsinProdType getEprodType() {
+		return eprodType;
+	}
+
+	public void setEprodType(EIsinProdType eprodType) {
+		this.eprodType = eprodType;
+	}
 
 	public String getProdId() {
 		return prodId;
 	}
-
 	public void setProdId(String prodId) {
 		this.prodId = prodId;
 	}
@@ -86,6 +99,18 @@ public class IsinMaster {
 		this.genDate = genDate;
 	}
 	
-	
-	
+	@Override
+	public String toString(){
+		StringBuffer str = new StringBuffer();
+		str.append(this.getProdType()).append(";")
+			.append(this.getProdId()).append(";")
+			.append(this.getProdName()).append(";")
+			.append(this.getIssuer()).append(";")
+			.append(this.getIssueDate()).append(";")
+			.append(this.getMaturityDate()).append(";")
+			.append(this.getListYn()).append(";")
+			.append(this.getListDate()).append(";")
+			.append(this.getGenDate());
+		return str.toString();
+	}
 }

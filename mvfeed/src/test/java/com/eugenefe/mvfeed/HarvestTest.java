@@ -7,14 +7,12 @@ import javassist.compiler.ast.Variable;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.webharvest.definition.ScraperConfiguration;
-import org.webharvest.runtime.Scraper;
 
 public class HarvestTest {
 	private final static Logger logger = LoggerFactory.getLogger(HarvestTest.class);
 	
 	public static void main(String[] args) {
-//		DefinitionResolver.registerPlugin("com.my.MyPlugin1");
+/*//		DefinitionResolver.registerPlugin("com.my.MyPlugin1");
 //        DefinitionResolver.registerPlugin("com.my.MyPlugin2");
 //        DefinitionResolver.registerPlugin("com.my.MyPlugin3");
 
@@ -43,7 +41,7 @@ public class HarvestTest {
 			logger.info("Key Set : {}", duke);
 			
 			
-			/*LoopDef loopDef = (LoopDef)conf.getOperations().get(2);
+			LoopDef loopDef = (LoopDef)conf.getOperations().get(2);
 			logger.info("Configuration : {}",loopDef.getItem());
 			logger.info("Configuration : {}",((BaseElementDef)loopDef.getLoopBodyDef()).getOperationDefs()[0]);
 			
@@ -76,13 +74,13 @@ public class HarvestTest {
 //			Variable zzz = json.executePlugin(scraper, scraper.getContext());
 //			
 			
-			logger.info("Duke : {}", aaa.getWrappedObject());*/
+			logger.info("Duke : {}", aaa.getWrappedObject());
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-        
+        */
 	}
 
 }

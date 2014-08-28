@@ -26,11 +26,11 @@ public class IsinSearchResultTest {
 		
 //		stockMasterTest();
 		
-//		bondMasterTest();
+		bondMasterTest();
 //		elsMasterTest();
 //		isinSearchResult("stockSearchRst", "2", "KR7192090009");
 //		isinSearchResult("stockSearchRst", "2", "KR7200640001");
-		isinSearchResult("bondSearchRst", "3", "KR356202G454");
+//		isinSearchResult("bondSearchRst", "3", "KR310204G471");
 //		isinSearchResult("fundSearchRst", "4", "KR57420170C9"); 
 //		isinSearchResult("cdSearchRst", "6", "KRE827021223"); 
 //		isinSearchResult("drSearchRst", "8", "KR8036020004"); 

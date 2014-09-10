@@ -19,11 +19,16 @@
         <mapping class="com.eugenefe.saa.entity.SaaSegment"/>
         <mapping class="com.eugenefe.saa.entity.Benchmark"/>
         <mapping class="com.eugenefe.saa.entity.BenchmarkWeight"/> 
+        <mapping class="com.eugenefe.saa.entity.BenchmarkReturn"/>
+        <mapping class="com.eugenefe.saa.entity.BenchmarkExpectedReturn"/>
         <mapping class="com.eugenefe.saa.entity.BucketMapping"/>
-         <mapping class="com.eugenefe.saa.entity.OptimumProblem"/>
-       <mapping class="com.eugenefe.saa.entity.OverallConstraints"/>
+        <mapping class="com.eugenefe.saa.entity.OptimumProblem"/>
+        <mapping class="com.eugenefe.saa.entity.OverallConstraints"/>
         <mapping class="com.eugenefe.saa.entity.SegmentConstraints"/>
         <mapping class="com.eugenefe.saa.entity.SegmentCf"/>
+        <mapping class="com.eugenefe.saa.entity.SegmentRiskMeasure"/>
+        <mapping class="com.eugenefe.saa.entity.SaaEfficientFrontier"/>
+        <mapping class="com.eugenefe.saa.entity.SaaWeightResult"/>
         
     </session-factory>
 </hibernate-configuration>

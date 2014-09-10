@@ -33,8 +33,8 @@ public class SaaWeightResult implements java.io.Serializable {
 		this.id = id;
 	}
 
-	public SaaWeightResult(SaaWeightResultId id, Long bookAmt, Long evalAmt, Long optDtbnBookAmt, BigDecimal bookAmtChngRate,
-			String procClerkNo, Serializable dbChngDttm) {
+	public SaaWeightResult(SaaWeightResultId id, Long bookAmt, Long evalAmt
+								, Long optDtbnBookAmt, BigDecimal bookAmtChngRate) {
 		this.id = id;
 		this.bookAmt = bookAmt;
 		this.evalAmt = evalAmt;

@@ -126,9 +126,9 @@ public class MinConditionalVaR extends AbstractProblem {
 		Session s = HibernateUtil.currentSession();
 		List<SegmentScenario> scenarios = new ArrayList<SegmentScenario>();
 		Query qr = s.createQuery(	"from SegmentScenario a  where 1=1 " 
-								 +  " and   a.id.baseDate = :param3 "
-								 +  " and  to_number(a.id.sceId) <= :param2 "	
-								 +  " order by to_number(a.id.sceId), a.id.segId"
+								 +  " and   a.id.basDt = :param3 "
+								 +  " and  a.id.scnrNo <= :param2 "	
+								 +  " order by scnrNo, a.id.segId"
 				);
 		 qr.setParameter("param3", "20140630");
 		 qr.setParameter("param2", Integer.valueOf(sceNum));

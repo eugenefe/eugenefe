@@ -31,9 +31,11 @@ import com.eugenefe.saa.entity.SaaEfficientFrontierId;
 import com.eugenefe.saa.entity.SaaSegment;
 import com.eugenefe.saa.entity.SaaWeightResult;
 import com.eugenefe.saa.entity.SaaWeightResultId;
+import com.eugenefe.saa.entity.SegmentConstraints;
 import com.eugenefe.saa.entity.SegmentRiskMeasure;
 import com.eugenefe.saa.entity.SegmentScenario;
 import com.eugenefe.saa.problem.MinConditionalVaR;
+import com.eugenefe.util.DaoUtil;
 import com.eugenefe.util.HibernateUtil;
 
 public class TestMinConditionalVaR {
@@ -43,6 +45,8 @@ public class TestMinConditionalVaR {
 	private static String optMthdlId;
 	private static List<SegmentRiskMeasure> segPosList = new ArrayList<SegmentRiskMeasure>();
 	private static List<SaaSegment> segmentList = new ArrayList<SaaSegment>();
+	private static List<OverallConstraints> overallConts = new ArrayList<OverallConstraints>();
+	private static List<SegmentConstraints> segConts = new ArrayList<SegmentConstraints>();
 
 	public static void main(String[] args) throws IOException {
 //		basDt = args[0];
@@ -52,184 +56,65 @@ public class TestMinConditionalVaR {
 		int segNum = 1;
 		long sceNo = 20000;
 		testHibernate();
-		testSaveOrUpdate();
+//		testSaveOrUpdate();
 //		 runProblem();
 	}
 
 	private static void testHibernate(){
 		String bssd = "20140630";
-		String probId = "PRB_02";
+		String optMthdlId = "PRB_01";
 		String riskType = "MR";
 		String segId = "SEG_111";
 		long sceNo = 20000;
 		
 		List<OptimumProblem> probList = new ArrayList<OptimumProblem>();
+		
 //		List<SaaSegment> segments = new ArrayList<SaaSegment>();
 		Map<String, List<SegmentScenario>> sceMap = new HashMap<String, List<SegmentScenario>>();
 		Map<Long, List<SegmentScenario>> sceByNumberMap = new HashMap<Long, List<SegmentScenario>>();
 		List<SegmentScenario> sceList = new ArrayList<SegmentScenario>();
 //		List<SegmentRiskMeasure> posList = new ArrayList<SegmentRiskMeasure>();
 		
-//		probList = getProbelms();
+		probList = DaoUtil.getProbelms();
 		
-		OptimumProblem probs = getProbelm(probId);
+		OptimumProblem probs = DaoUtil.getProbelm(optMthdlId);
 		String segGroup  = probs.getSegGrpId();
-//		logger.info("Proble : {},{}", probs.getOptMthdlId(), segGroup);
-		segmentList = getSegmentByGroup(segGroup);
+		logger.info("Proble : {},{}", probs.getOptMthdlId(), segGroup);
+		segmentList = DaoUtil.getSegmentByGroup(segGroup);
 
-		segPosList = getPosition();
-		for(SaaSegment aa : segmentList){
-			segPosList.add(getPositionById(aa.getSegId()));
-			sceMap.put(aa.getSegId(), getScenariosById(basDt, probs.getRiskTypeCd(), aa.getSegId(), sceNo));
-		}
+		segPosList = DaoUtil.getSegmentPositionByGroup(segGroup);
+//		segPosList = DaoUtil.getSegmentPosition();
+		logger.info("Segment Position : {},{}", segPosList.get(0).getId().getSegId(), segPosList.get(0).getSegment().getSegGroupId());
 		
-		logger.info("Segment Position : {},{}", segPosList.get(0).getId().getSegId());
-
-		List<BucketMapping> bucket = getBucket(segId);
-		logger.info("Proble : {},{}", bucket.get(0).getId().getBucketId());
+//		overallConts = DaoUtil.getOverallConstraints(optMthdlId);
+//		segConts = DaoUtil.getSegmentConstraints(optMthdlId);
+//		logger.info("Segment Position : {},{}", overallConts.size(), segConts.size());
+		
+//		for(SaaSegment aa : segmentList){
+//			segPosList.add(getPositionById(aa.getSegId()));
+//			sceMap.put(aa.getSegId(), getScenariosById(basDt, probs.getRiskTypeCd(), aa.getSegId(), sceNo));
+//		}
+//		
+//		logger.info("Segment Position : {},{}", segPosList.get(0).getId().getSegId());
+//
+		List<BucketMapping> bucket = DaoUtil.getBucket(segId);
+//		logger.info("Proble : {},{}", bucket.get(0).getId().getBucketId());
 		
 		
 		
-//		sceList = getScenariosById(bssd, riskType, segId, sceNo);
+		sceList = DaoUtil.getScenariosById(bssd, riskType, segId, sceNo);
 //		for ( SaaSegment aa : getSegmentByGroup(segGroup)){
 //			logger.info("segScenario : {},{}", aa.getSegId(), aa.getSegGroupId());
 //		}
 
-		sceMap = getScenarioMap(bssd, riskType, segGroup, sceNo);
+//		sceMap = getScenarioMap(bssd, riskType, segGroup, sceNo);
 		logger.info("Map Size : {},{}", sceMap.size());
 		// getConstraints(probId);
 
 //		List<SegmentScenario> zz = getScenariosById(bssd, riskType, segId, sceNum);
 	}
 	
-	private static OptimumProblem getProbelm(String probId) {
-//		 Session s = HibernateUtil.currentSession();
-
-		Query qr = s.createQuery(	"	from OptimumProblem a  where 1=1 " 
-								+ 	" 	and   a.optMthdlId = :param1 "
-								);
-		qr.setParameter("param1", probId);
-
-		OptimumProblem prob = (OptimumProblem) qr.uniqueResult();
-		return prob;
-	}
 	
-	private static List<OptimumProblem> getProbelms() {
-//		 Session s = HibernateUtil.currentSession();
-
-		Query qr = s.createQuery(	"	from OptimumProblem a  where 1=1 " 
-								);
-
-		List<OptimumProblem> probList = qr.list();
-		for (OptimumProblem aa : probList) {
-			logger.info("Problems : {},{}", aa.getOptMthdlId(), aa.getOptMdlCd());
-		}
-		return probList;
-	}
-	
-	private static List<BucketMapping> getBucket(String segId) {
-		Query qr = s.createQuery(	"	from BucketMapping a  where 1=1 " 
-								+ 	" 	and   a.id.segId = :param1 "
-								);
-		qr.setParameter("param1", segId);
-		return qr.list();
-	}
-
-	private static List<SegmentRiskMeasure> getPosition(){
-		Query qr = s.createQuery(	"	from SegmentRiskMeasure a  where 1=1 " 
-//								+ 	" 	and   a.id.segId = :param1 "
-								);
-//		qr.setParameter("param1", segId);
-		return qr.list();
-	}
-	private static SegmentRiskMeasure getPositionById(String segId){
-		Query qr = s.createQuery(	"	from SegmentRiskMeasure a  where 1=1 " 
-								+ 	" 	and   a.id.segId = :segId "
-								);
-		qr.setParameter("segId", segId);
-		return (SegmentRiskMeasure)qr.uniqueResult();
-	}
-	
-	private static List<SaaSegment> getSegmentByGroup(String segGroup) {
-//		Session s = HibernateUtil.currentSession();
-		List<SaaSegment> rst = new ArrayList<SaaSegment>();
-		Query qr = s.createQuery(	" from SaaSegment a where 1=1 " 
-								+ 	" and   a.segGroupId = :segGroup "
-								+ 	" order by a.segId "
-								);
-		qr.setParameter("segGroup", segGroup);
-
-		rst = qr.list();
-		for (SaaSegment aa : rst) {
-//			logger.info("segScenario : {},{}", aa.getSegId(), aa.getSegGroupId());
-			logger.info("segScenario : {},{}", aa.getSegId());
-		}
-		return rst;
-	}
-
-	private static Map<String, List<SegmentScenario>> getScenarioMap(String bssd, String riskType, String segGroup, long sceNum) {
-		Map<String, List<SegmentScenario>> rst = new HashMap<String, List<SegmentScenario>>();
-		for ( SaaSegment aa : getSegmentByGroup(segGroup)){
-//			logger.info("segScenario : {},{}", aa.getSegId(), aa.getSegGroupId());
-			rst.put(aa.getSegId(), getScenariosById(bssd, riskType, aa.getSegId(), sceNum));
-			
-		}
-		return rst;
-	}
-	
-/*	private static Map<Long, List<SegmentScenario>> getScenarioByNumber(String bssd, String riskType, String segGroup, long sceNum) {
-		Map<Long, List<SegmentScenario>> rst = new HashMap<Long, List<SegmentScenario>>();
-		for ( SaaSegment aa : getSegmentByGroup(segGroup)){
-//			logger.info("segScenario : {},{}", aa.getSegId(), aa.getSegGroupId());
-			rst.put(new Long(i), getScenariosByNumber(bssd, riskType, segGroup,i));
-			
-		}
-		return rst;
-	}*/
-	
-	
-	private static List<SegmentScenario> getScenariosById(String bssd, String riskType, String segId, long sceNum) {
-//		 Session s = HibernateUtil.currentSession();
-		List<SegmentScenario> scenarios = new ArrayList<SegmentScenario>();
-		Query qr = s.createQuery("from SegmentScenario a  where 1=1 " 
-								+ " and   a.id.basDt = :bssd "
-								+ " and   a.id.riskTypeCd = :riskType " 
-								+ " and   a.id.segId =:segId"
-				 				+ " and   a.id.snroNo <= :sceNum "
-								+ " order by a.id.snroNo, a.id.segId"
-								);
-		qr.setParameter("bssd", bssd);
-		qr.setParameter("riskType", riskType);
-		qr.setParameter("segId", segId);
-//		 qr.setParameter("sceNum", Integer.valueOf(sceNum));
-		 qr.setParameter("sceNum", sceNum);
-
-		scenarios = qr.list();
-		logger.info("segScenario Size : {},{}", segId, scenarios.size());
-		
-		for (SegmentScenario aa : scenarios) {
-//			logger.info("segScenario : {},{}", aa.getId().getSceId(), aa.getSceValue());
-		}
-		return scenarios;
-	}
-	
-	
-
-	private static void getConstraints(String probId) {
-		 Session s = HibernateUtil.currentSession();
-		List<OverallConstraints> overallConst = new ArrayList<OverallConstraints>();
-
-		Query qr = s.createQuery("from OverallConstraints a  where 1=1 " 
-								+ " and   a.id.probId = :param1 "
-								);
-		qr.setParameter("param1", probId);
-
-		overallConst = qr.list();
-		for (OverallConstraints aa : overallConst) {
-			logger.info("Problems : {},{}", aa.getId().getOptMthdlId(), aa.getId().getLmtExprCd());
-			logger.info("Problems : {},{}", aa.getLeftHandVal(), aa.getRightHandVal());
-		}
-	}
 
 	private static void runProblem() throws IOException {
 		List<SaaWeightResult> weightRst = new ArrayList<SaaWeightResult>();

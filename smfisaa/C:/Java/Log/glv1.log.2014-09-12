@@ -1,0 +1,1508 @@
+[02:06:20][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[02:06:20][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[02:06:20][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[02:06:20][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[02:06:20][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[02:06:20][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[02:06:20][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[02:06:21][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[02:06:21][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[02:06:21][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[02:06:21][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[02:06:21][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[02:06:22][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[02:06:22][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[02:06:22][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[02:06:22][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S2,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S20,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S200,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S201,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S202,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S203,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S204,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S205,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S206,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S207,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S208,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S209,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S21,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S210,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S211,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S212,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S213,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S214,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S215,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S216,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S217,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S218,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S219,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S22,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S220,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S221,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S222,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S223,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S224,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S225,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S226,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S227,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S228,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S229,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S23,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S230,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S231,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S232,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S233,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S234,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S235,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S236,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S237,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S238,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S239,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S24,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S240,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S241,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S242,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S243,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S244,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S245,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S246,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S247,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S248,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S249,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S25,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S250,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S251,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S252,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S253,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S254,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S255,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S256,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S257,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S258,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S259,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S26,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S260,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S261,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S262,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S263,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S264,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S265,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S266,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S267,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S268,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S269,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S27,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S270,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S271,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S272,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S273,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S274,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S275,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S276,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S277,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S278,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S279,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S28,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S280,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S281,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S282,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S283,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S284,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S285,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S286,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S287,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S288,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S289,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S29,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S290,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S291,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S292,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S293,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S294,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S295,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S296,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S297,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S298,{}
+[02:06:23][INFO ](TestMinConditionalVaR.java:165) - segScenario : S299,{}
+[02:06:25][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S2,0
+[02:06:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S20,0
+[02:06:27][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S200,0
+[02:06:28][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S201,0
+[02:06:29][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S202,0
+[02:06:30][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S203,0
+[02:06:31][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S204,0
+[02:06:32][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S205,0
+[02:06:32][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S206,0
+[02:06:33][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S207,0
+[02:06:34][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S208,0
+[02:06:35][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S209,0
+[02:06:36][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S21,0
+[02:06:37][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S210,0
+[02:06:38][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S211,0
+[02:06:39][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S212,0
+[02:06:40][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S213,0
+[02:06:41][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S214,0
+[02:06:42][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S215,0
+[02:06:43][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S216,0
+[02:06:44][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S217,0
+[02:06:45][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S218,0
+[02:06:45][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S219,0
+[02:06:46][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S22,0
+[02:06:47][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S220,0
+[02:06:48][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S221,0
+[02:06:49][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S222,0
+[02:06:50][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S223,0
+[02:06:50][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S224,0
+[02:06:52][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S225,0
+[02:06:52][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S226,0
+[02:06:53][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S227,0
+[02:06:54][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S228,0
+[02:06:55][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S229,0
+[02:06:55][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S23,0
+[02:06:56][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S230,0
+[02:06:57][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S231,0
+[02:06:57][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S232,0
+[02:06:58][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S233,0
+[02:06:59][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S234,0
+[02:06:59][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S235,0
+[02:07:00][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S236,0
+[02:07:01][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S237,0
+[02:07:02][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S238,0
+[02:07:02][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S239,0
+[02:07:03][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S24,0
+[02:07:03][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S240,0
+[02:07:04][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S241,0
+[02:07:05][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S242,0
+[02:07:05][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S243,0
+[02:07:06][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S244,0
+[02:07:06][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S245,0
+[02:07:07][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S246,0
+[02:07:08][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S247,0
+[02:07:08][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S248,0
+[02:07:09][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S249,0
+[02:07:09][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S25,0
+[02:07:10][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S250,0
+[02:07:10][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S251,0
+[02:07:11][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S252,0
+[02:07:11][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S253,0
+[02:07:12][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S254,0
+[02:07:12][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S255,0
+[02:07:13][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S256,0
+[02:07:13][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S257,0
+[02:07:14][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S258,0
+[02:07:14][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S259,0
+[02:07:14][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S26,0
+[02:07:15][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S260,0
+[02:07:15][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S261,0
+[02:07:16][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S262,0
+[02:07:16][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S263,0
+[02:07:17][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S264,0
+[02:07:17][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S265,0
+[02:07:17][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S266,0
+[02:07:17][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S267,0
+[02:07:18][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S268,0
+[02:07:18][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S269,0
+[02:07:19][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S27,0
+[02:07:19][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S270,0
+[02:07:19][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S271,0
+[02:07:20][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S272,0
+[02:07:20][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S273,0
+[02:07:20][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S274,0
+[02:07:20][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S275,0
+[02:07:21][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S276,0
+[02:07:21][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S277,0
+[02:07:21][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S278,0
+[02:07:22][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S279,0
+[02:07:22][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S28,0
+[02:07:22][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S280,0
+[02:07:22][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S281,0
+[02:07:23][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S282,0
+[02:07:23][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S283,0
+[02:07:23][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S284,0
+[02:07:23][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S285,0
+[02:07:24][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S286,0
+[02:07:24][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S287,0
+[02:07:24][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S288,0
+[02:07:24][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S289,0
+[02:07:24][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S29,0
+[02:07:25][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S290,0
+[02:07:25][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S291,0
+[02:07:25][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S292,0
+[02:07:25][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S293,0
+[02:07:25][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S294,0
+[02:07:25][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S295,0
+[02:07:25][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S296,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S297,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S298,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S299,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:86) - Segment Position : SEG_111,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:89) - Proble : BKT_11,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S2,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S20,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S200,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S201,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S202,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S203,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S204,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S205,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S206,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S207,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S208,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S209,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S21,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S210,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S211,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S212,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S213,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S214,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S215,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S216,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S217,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S218,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S219,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S22,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S220,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S221,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S222,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S223,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S224,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S225,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S226,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S227,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S228,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S229,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S23,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S230,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S231,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S232,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S233,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S234,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S235,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S236,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S237,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S238,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S239,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S24,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S240,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S241,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S242,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S243,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S244,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S245,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S246,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S247,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S248,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S249,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S25,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S250,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S251,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S252,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S253,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S254,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S255,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S256,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S257,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S258,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S259,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S26,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S260,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S261,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S262,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S263,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S264,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S265,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S266,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S267,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S268,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S269,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S27,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S270,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S271,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S272,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S273,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S274,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S275,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S276,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S277,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S278,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S279,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S28,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S280,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S281,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S282,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S283,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S284,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S285,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S286,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S287,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S288,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S289,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S29,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S290,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S291,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S292,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S293,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S294,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S295,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S296,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S297,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S298,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:165) - segScenario : S299,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S2,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S20,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S200,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S201,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S202,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S203,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S204,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S205,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S206,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S207,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S208,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S209,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S21,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S210,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S211,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S212,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S213,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S214,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S215,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S216,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S217,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S218,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S219,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S22,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S220,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S221,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S222,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S223,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S224,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S225,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S226,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S227,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S228,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S229,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S23,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S230,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S231,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S232,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S233,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S234,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S235,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S236,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S237,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S238,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S239,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S24,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S240,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S241,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S242,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S243,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S244,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S245,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S246,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S247,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S248,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S249,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S25,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S250,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S251,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S252,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S253,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S254,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S255,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S256,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S257,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S258,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S259,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S26,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S260,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S261,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S262,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S263,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S264,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S265,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S266,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S267,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S268,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S269,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S27,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S270,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S271,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S272,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S273,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S274,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S275,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S276,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S277,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S278,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S279,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S28,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S280,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S281,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S282,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S283,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S284,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S285,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S286,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S287,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S288,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S289,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S29,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S290,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S291,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S292,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S293,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S294,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S295,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S296,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S297,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S298,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:208) - segScenario Size : S299,0
+[02:07:26][INFO ](TestMinConditionalVaR.java:99) - Map Size : 111,{}
+[02:07:26][INFO ](TestMinConditionalVaR.java:292) - Save : PRB_03
+[02:07:26][INFO ](TestMinConditionalVaR.java:304) - Save : PRB_03
+[02:07:26][INFO ](TestMinConditionalVaR.java:309) - Save : {}
+[02:13:05][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[02:13:05][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[02:13:05][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[02:13:05][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[02:13:05][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[02:13:05][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[02:13:05][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[02:13:06][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[02:13:06][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[02:13:06][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[02:13:06][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[02:13:06][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[02:13:06][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[02:13:07][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[02:13:07][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[02:13:07][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S2,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S20,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S200,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S201,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S202,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S203,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S204,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S205,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S206,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S207,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S208,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S209,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S21,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S210,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S211,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S212,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S213,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S214,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S215,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S216,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S217,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S218,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S219,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S22,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S220,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S221,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S222,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S223,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S224,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S225,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S226,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S227,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S228,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S229,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S23,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S230,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S231,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S232,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S233,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S234,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S235,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S236,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S237,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S238,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S239,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S24,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S240,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S241,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S242,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S243,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S244,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S245,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S246,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S247,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S248,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S249,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S25,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S250,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S251,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S252,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S253,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S254,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S255,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S256,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S257,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S258,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S259,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S26,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S260,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S261,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S262,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S263,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S264,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S265,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S266,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S267,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S268,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S269,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S27,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S270,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S271,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S272,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S273,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S274,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S275,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S276,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S277,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S278,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S279,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S28,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S280,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S281,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S282,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S283,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S284,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S285,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S286,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S287,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S288,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S289,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S29,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S290,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S291,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S292,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S293,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S294,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S295,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S296,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S297,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S298,{}
+[02:13:07][INFO ](TestMinConditionalVaR.java:169) - segScenario : S299,{}
+[02:13:30][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[02:13:30][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[02:13:30][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[02:13:30][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[02:13:30][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[02:13:30][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[02:13:30][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[02:13:30][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[02:13:31][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[02:13:31][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[02:13:31][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[02:13:31][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[02:13:31][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[02:13:31][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[02:13:31][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[02:13:31][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S2,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S20,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S200,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S201,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S202,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S203,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S204,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S205,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S206,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S207,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S208,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S209,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S21,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S210,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S211,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S212,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S213,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S214,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S215,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S216,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S217,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S218,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S219,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S22,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S220,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S221,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S222,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S223,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S224,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S225,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S226,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S227,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S228,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S229,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S23,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S230,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S231,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S232,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S233,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S234,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S235,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S236,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S237,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S238,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S239,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S24,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S240,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S241,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S242,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S243,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S244,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S245,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S246,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S247,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S248,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S249,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S25,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S250,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S251,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S252,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S253,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S254,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S255,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S256,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S257,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S258,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S259,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S26,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S260,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S261,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S262,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S263,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S264,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S265,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S266,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S267,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S268,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S269,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S27,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S270,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S271,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S272,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S273,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S274,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S275,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S276,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S277,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S278,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S279,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S28,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S280,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S281,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S282,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S283,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S284,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S285,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S286,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S287,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S288,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S289,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S29,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S290,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S291,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S292,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S293,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S294,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S295,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S296,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S297,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S298,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S299,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:83) - Segment Position : 0,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S2,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S20,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S200,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S201,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S202,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S203,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S204,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S205,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S206,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S207,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S208,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S209,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S21,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S210,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S211,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S212,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S213,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S214,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S215,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S216,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S217,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S218,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S219,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S22,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S220,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S221,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S222,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S223,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S224,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S225,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S226,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S227,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S228,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S229,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S23,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S230,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S231,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S232,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S233,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S234,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S235,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S236,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S237,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S238,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S239,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S24,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S240,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S241,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S242,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S243,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S244,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S245,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S246,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S247,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S248,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S249,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S25,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S250,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S251,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S252,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S253,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S254,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S255,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S256,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S257,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S258,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S259,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S26,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S260,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S261,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S262,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S263,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S264,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S265,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S266,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S267,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S268,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S269,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S27,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S270,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S271,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S272,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S273,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S274,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S275,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S276,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S277,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S278,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S279,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S28,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S280,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S281,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S282,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S283,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S284,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S285,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S286,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S287,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S288,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S289,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S29,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S290,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S291,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S292,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S293,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S294,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S295,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S296,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S297,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S298,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:169) - segScenario : S299,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S2,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S20,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S200,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S201,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S202,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S203,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S204,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S205,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S206,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S207,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S208,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S209,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S21,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S210,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S211,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S212,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S213,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S214,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S215,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S216,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S217,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S218,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S219,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S22,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S220,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S221,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S222,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S223,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S224,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S225,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S226,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S227,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S228,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S229,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S23,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S230,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S231,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S232,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S233,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S234,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S235,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S236,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S237,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S238,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S239,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S24,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S240,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S241,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S242,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S243,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S244,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S245,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S246,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S247,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S248,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S249,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S25,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S250,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S251,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S252,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S253,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S254,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S255,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S256,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S257,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S258,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S259,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S26,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S260,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S261,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S262,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S263,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S264,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S265,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S266,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S267,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S268,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S269,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S27,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S270,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S271,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S272,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S273,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S274,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S275,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S276,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S277,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S278,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S279,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S28,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S280,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S281,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S282,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S283,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S284,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S285,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S286,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S287,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S288,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S289,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S29,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S290,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S291,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S292,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S293,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S294,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S295,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S296,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S297,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S298,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S299,0
+[02:13:32][INFO ](TestMinConditionalVaR.java:103) - Map Size : 111,{}
+[02:13:32][INFO ](TestMinConditionalVaR.java:307) - Save : PRB_03
+[02:13:32][INFO ](TestMinConditionalVaR.java:319) - Save : PRB_03
+[02:13:33][INFO ](TestMinConditionalVaR.java:324) - Save : {}
+[02:14:04][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[02:14:04][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[02:14:04][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[02:14:04][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[02:14:04][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[02:14:04][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[02:14:04][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[02:14:05][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[02:14:05][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[02:14:05][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[02:14:05][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[02:14:05][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[02:14:05][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[02:14:05][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[02:14:05][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[02:14:05][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[02:14:06][INFO ](TestMinConditionalVaR.java:83) - Segment Position : 0,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S2,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S20,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S200,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S201,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S202,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S203,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S204,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S205,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S206,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S207,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S208,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S209,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S21,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S210,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S211,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S212,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S213,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S214,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S215,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S216,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S217,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S218,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S219,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S22,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S220,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S221,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S222,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S223,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S224,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S225,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S226,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S227,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S228,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S229,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S23,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S230,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S231,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S232,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S233,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S234,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S235,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S236,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S237,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S238,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S239,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S24,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S240,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S241,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S242,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S243,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S244,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S245,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S246,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S247,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S248,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S249,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S25,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S250,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S251,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S252,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S253,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S254,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S255,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S256,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S257,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S258,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S259,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S26,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S260,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S261,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S262,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S263,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S264,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S265,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S266,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S267,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S268,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S269,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S27,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S270,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S271,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S272,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S273,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S274,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S275,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S276,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S277,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S278,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S279,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S28,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S280,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S281,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S282,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S283,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S284,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S285,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S286,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S287,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S288,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S289,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S29,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S290,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S291,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S292,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S293,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S294,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S295,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S296,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S297,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S298,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:169) - segScenario : S299,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S2,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S20,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S200,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S201,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S202,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S203,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S204,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S205,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S206,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S207,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S208,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S209,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S21,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S210,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S211,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S212,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S213,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S214,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S215,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S216,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S217,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S218,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S219,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S22,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S220,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S221,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S222,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S223,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S224,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S225,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S226,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S227,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S228,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S229,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S23,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S230,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S231,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S232,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S233,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S234,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S235,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S236,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S237,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S238,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S239,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S24,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S240,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S241,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S242,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S243,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S244,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S245,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S246,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S247,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S248,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S249,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S25,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S250,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S251,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S252,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S253,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S254,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S255,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S256,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S257,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S258,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S259,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S26,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S260,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S261,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S262,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S263,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S264,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S265,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S266,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S267,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S268,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S269,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S27,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S270,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S271,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S272,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S273,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S274,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S275,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S276,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S277,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S278,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S279,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S28,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S280,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S281,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S282,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S283,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S284,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S285,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S286,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S287,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S288,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S289,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S29,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S290,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S291,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S292,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S293,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S294,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S295,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S296,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S297,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S298,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:223) - segScenario Size : S299,0
+[02:14:06][INFO ](TestMinConditionalVaR.java:103) - Map Size : 111,{}
+[02:14:06][INFO ](TestMinConditionalVaR.java:307) - Save : PRB_03
+[02:14:06][INFO ](TestMinConditionalVaR.java:319) - Save : PRB_03
+[02:14:07][INFO ](TestMinConditionalVaR.java:324) - Save : {}
+[02:14:36][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[02:14:36][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[02:14:36][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[02:14:36][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[02:14:36][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[02:14:36][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[02:14:36][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[02:14:36][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[02:14:36][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[02:14:36][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[02:14:36][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[02:14:36][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[02:14:37][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[02:14:37][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[02:14:37][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[02:14:37][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[02:14:38][INFO ](TestMinConditionalVaR.java:83) - Segment Position : 0,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S2,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S20,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S200,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S201,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S202,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S203,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S204,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S205,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S206,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S207,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S208,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S209,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S21,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S210,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S211,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S212,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S213,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S214,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S215,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S216,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S217,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S218,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S219,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S22,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S220,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S221,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S222,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S223,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S224,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S225,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S226,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S227,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S228,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S229,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S23,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S230,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S231,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S232,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S233,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S234,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S235,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S236,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S237,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S238,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S239,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S24,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S240,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S241,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S242,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S243,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S244,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S245,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S246,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S247,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S248,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S249,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S25,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S250,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S251,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S252,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S253,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S254,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S255,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S256,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S257,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S258,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S259,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S26,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S260,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S261,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S262,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S263,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S264,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S265,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S266,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S267,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S268,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S269,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S27,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S270,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S271,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S272,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S273,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S274,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S275,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S276,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S277,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S278,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S279,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S28,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S280,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S281,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S282,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S283,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S284,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S285,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S286,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S287,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S288,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S289,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S29,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S290,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S291,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S292,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S293,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S294,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S295,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S296,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S297,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S298,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:169) - segScenario : S299,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:103) - Map Size : 111,{}
+[02:14:38][INFO ](TestMinConditionalVaR.java:307) - Save : PRB_03
+[02:14:38][INFO ](TestMinConditionalVaR.java:319) - Save : PRB_03
+[02:14:38][INFO ](TestMinConditionalVaR.java:324) - Save : {}
+[02:14:47][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[02:14:47][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[02:14:47][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[02:14:47][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[02:14:47][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[02:14:47][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[02:14:47][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[02:14:47][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[02:14:47][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[02:14:47][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[02:14:47][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[02:14:47][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[02:14:47][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[02:14:47][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[02:14:47][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[02:14:48][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[02:14:48][INFO ](TestMinConditionalVaR.java:83) - Segment Position : 0,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S2,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S20,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S200,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S201,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S202,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S203,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S204,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S205,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S206,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S207,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S208,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S209,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S21,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S210,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S211,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S212,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S213,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S214,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S215,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S216,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S217,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S218,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S219,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S22,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S220,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S221,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S222,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S223,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S224,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S225,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S226,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S227,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S228,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S229,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S23,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S230,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S231,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S232,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S233,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S234,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S235,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S236,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S237,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S238,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S239,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S24,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S240,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S241,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S242,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S243,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S244,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S245,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S246,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S247,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S248,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S249,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S25,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S250,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S251,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S252,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S253,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S254,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S255,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S256,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S257,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S258,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S259,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S26,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S260,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S261,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S262,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S263,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S264,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S265,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S266,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S267,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S268,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S269,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S27,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S270,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S271,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S272,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S273,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S274,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S275,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S276,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S277,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S278,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S279,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S28,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S280,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S281,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S282,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S283,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S284,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S285,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S286,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S287,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S288,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S289,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S29,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S290,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S291,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S292,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S293,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S294,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S295,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S296,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S297,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S298,{}
+[02:14:48][INFO ](TestMinConditionalVaR.java:169) - segScenario : S299,{}
+[02:14:49][INFO ](TestMinConditionalVaR.java:103) - Map Size : 111,{}
+[02:14:49][INFO ](TestMinConditionalVaR.java:307) - Save : PRB_03
+[02:14:49][INFO ](TestMinConditionalVaR.java:319) - Save : PRB_03
+[02:14:49][INFO ](TestMinConditionalVaR.java:324) - Save : {}
+[02:15:41][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[02:15:41][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[02:15:42][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[02:15:42][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[02:15:42][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[02:15:42][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[02:15:42][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[02:15:42][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[02:15:42][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[02:15:42][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[02:15:42][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[02:15:42][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[02:15:43][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[02:15:43][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[02:15:43][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[02:15:43][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[02:15:43][INFO ](TestMinConditionalVaR.java:83) - Segment Position : 0,{}
+[02:15:43][INFO ](TestMinConditionalVaR.java:103) - Map Size : 0,{}
+[02:19:30][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[02:19:30][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[02:19:30][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[02:19:30][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[02:19:30][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[02:19:30][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[02:19:30][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[02:19:30][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[02:19:30][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[02:19:30][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[02:19:30][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[02:19:30][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[02:19:31][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[02:19:31][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[02:19:31][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[02:19:31][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[02:19:31][INFO ](TestMinConditionalVaR.java:87) - Segment Position : 0,0
+[02:19:31][INFO ](TestMinConditionalVaR.java:107) - Map Size : 0,{}
+[02:21:39][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[02:21:39][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[02:21:39][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[02:21:39][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[02:21:39][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[02:21:39][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[02:21:39][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[02:21:39][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[02:21:39][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[02:21:39][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[02:21:39][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[02:21:39][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[02:21:40][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[02:21:40][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[02:21:40][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[02:21:40][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[02:21:41][INFO ](TestMinConditionalVaR.java:87) - Segment Position : 0,0
+[02:21:41][INFO ](TestMinConditionalVaR.java:107) - Map Size : 0,{}

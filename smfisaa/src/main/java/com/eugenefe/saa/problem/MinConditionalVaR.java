@@ -35,6 +35,9 @@ import org.moeaframework.problem.AbstractProblem;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.eugenefe.saa.entity.OverallConstraints;
+import com.eugenefe.saa.entity.SegmentConstraints;
+import com.eugenefe.saa.entity.SegmentRiskMeasure;
 import com.eugenefe.saa.entity.SegmentScenario;
 import com.eugenefe.saa.entity.SegmentScenarioId;
 import com.eugenefe.util.HibernateUtil;
@@ -49,6 +52,21 @@ public class MinConditionalVaR extends AbstractProblem {
 	
 	public MinConditionalVaR() {
 		super(304,2,1);
+		varSize =303;
+		logger.info("Start creation : {}", varSize);
+		sceNum = 5000;
+		sceArray = getScenarioArray(varSize,sceNum);
+		expectedReturn = new double[varSize];
+		for(int i =0; i< varSize; i++){
+			expectedReturn[i] =0.03 + 0.03* Math.random();
+		}
+		logger.info("End of Creation : {},{}", varSize, sceArray.length);
+		
+	}
+	
+	public MinConditionalVaR(List<SegmentRiskMeasure> posList, List<OverallConstraints> overConts
+									, List<SegmentConstraints> segConts) {
+		super(posList.size()+1 ,2,overConts.size() + segConts.size() );
 		varSize =303;
 		logger.info("Start creation : {}", varSize);
 		sceNum = 5000;

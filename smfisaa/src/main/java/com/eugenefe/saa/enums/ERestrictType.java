@@ -5,13 +5,18 @@ package com.eugenefe.saa.enums;
 
 
 public enum ERestrictType {
-	 TA,
-	 AW,
-	 HR,
+	 TTA,
+	 RAW,
+	 RCW,
+	 THR,
 	 NHR,
-	 DR,
-	 CF,
-	 VaR;
+	 TDR,
+	 RDR,
+	 TLQ,
+	 RCF,
+	 MCF,
+	 RSK
+	 ;
 	 
 	private ERestrictType ( ){
 	}

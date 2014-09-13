@@ -1,0 +1,479 @@
+[11:54:17][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[11:54:17][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[11:54:17][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[11:54:17][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[11:54:17][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[11:54:17][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[11:54:17][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[11:54:18][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[11:54:18][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[11:54:18][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[11:54:18][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[11:54:18][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[11:54:19][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[11:54:19][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[11:54:19][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[11:54:19][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[11:54:20][INFO ](DaoUtil.java:31) - Problems : PRB_01,03
+[11:54:20][INFO ](DaoUtil.java:31) - Problems : PRB_02,03
+[11:54:20][INFO ](DaoUtil.java:31) - Problems : PRB_03,03
+[11:54:20][INFO ](TestMinConditionalVaR.java:88) - Segment Position : 0,0
+[11:54:20][INFO ](TestMinConditionalVaR.java:108) - Map Size : 0,{}
+[12:27:24][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[12:27:24][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[12:27:24][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[12:27:24][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[12:27:24][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[12:27:24][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[12:27:25][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[12:27:25][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[12:27:25][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[12:27:25][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[12:27:25][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[12:27:25][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[12:27:26][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[12:27:26][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[12:27:26][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[12:27:26][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[12:27:27][INFO ](TestMinConditionalVaR.java:176) - Save : PRB_03
+[12:27:27][INFO ](TestMinConditionalVaR.java:188) - Save : PRB_03
+[12:27:27][INFO ](TestMinConditionalVaR.java:193) - Save : {}
+[12:27:36][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[12:27:36][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[12:27:36][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[12:27:36][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[12:27:37][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[12:27:37][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[12:27:37][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[12:27:37][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[12:27:37][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[12:27:37][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[12:27:37][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[12:27:37][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[12:27:38][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[12:27:38][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[12:27:38][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[12:27:38][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[12:27:38][INFO ](DaoUtil.java:38) - Problems : PRB_01,03
+[12:27:38][INFO ](DaoUtil.java:38) - Problems : PRB_02,03
+[12:27:38][INFO ](DaoUtil.java:38) - Problems : PRB_03,03
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S2,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S20,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S200,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S201,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S202,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S203,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S204,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S205,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S206,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S207,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S208,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S209,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S21,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S210,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S211,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S212,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S213,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S214,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S215,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S216,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S217,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S218,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S219,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S22,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S220,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S221,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S222,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S223,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S224,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S225,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S226,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S227,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S228,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S229,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S23,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S230,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S231,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S232,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S233,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S234,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S235,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S236,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S237,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S238,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S239,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S24,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S240,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S241,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S242,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S243,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S244,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S245,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S246,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S247,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S248,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S249,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S25,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S250,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S251,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S252,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S253,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S254,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S255,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S256,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S257,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S258,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S259,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S26,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S260,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S261,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S262,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S263,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S264,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S265,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S266,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S267,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S268,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S269,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S27,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S270,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S271,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S272,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S273,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S274,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S275,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S276,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S277,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S278,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S279,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S28,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S280,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S281,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S282,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S283,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S284,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S285,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S286,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S287,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S288,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S289,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S29,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S290,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S291,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S292,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S293,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S294,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S295,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S296,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S297,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S298,{}
+[12:27:38][INFO ](DaoUtil.java:102) - segScenario : S299,{}
+[12:27:39][INFO ](TestMinConditionalVaR.java:86) - Segment Position : 0,{}
+[12:27:39][INFO ](TestMinConditionalVaR.java:110) - Map Size : 0,{}
+[12:27:54][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[12:27:54][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[12:27:54][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[12:27:54][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[12:27:54][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[12:27:54][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[12:27:54][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[12:27:54][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[12:27:55][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[12:27:55][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[12:27:55][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[12:27:55][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[12:27:55][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[12:27:55][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[12:27:55][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[12:27:55][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[12:27:56][INFO ](DaoUtil.java:38) - Problems : PRB_01,03
+[12:27:56][INFO ](DaoUtil.java:38) - Problems : PRB_02,03
+[12:27:56][INFO ](DaoUtil.java:38) - Problems : PRB_03,03
+[12:27:56][INFO ](TestMinConditionalVaR.java:82) - Proble : PRB_02,BB
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S2,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S20,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S200,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S201,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S202,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S203,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S204,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S205,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S206,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S207,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S208,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S209,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S21,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S210,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S211,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S212,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S213,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S214,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S215,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S216,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S217,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S218,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S219,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S22,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S220,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S221,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S222,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S223,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S224,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S225,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S226,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S227,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S228,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S229,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S23,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S230,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S231,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S232,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S233,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S234,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S235,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S236,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S237,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S238,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S239,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S24,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S240,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S241,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S242,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S243,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S244,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S245,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S246,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S247,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S248,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S249,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S25,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S250,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S251,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S252,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S253,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S254,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S255,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S256,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S257,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S258,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S259,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S26,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S260,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S261,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S262,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S263,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S264,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S265,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S266,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S267,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S268,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S269,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S27,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S270,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S271,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S272,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S273,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S274,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S275,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S276,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S277,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S278,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S279,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S28,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S280,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S281,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S282,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S283,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S284,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S285,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S286,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S287,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S288,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S289,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S29,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S290,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S291,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S292,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S293,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S294,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S295,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S296,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S297,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S298,{}
+[12:27:56][INFO ](DaoUtil.java:102) - segScenario : S299,{}
+[12:27:56][INFO ](TestMinConditionalVaR.java:86) - Segment Position : 0,{}
+[12:27:56][INFO ](TestMinConditionalVaR.java:110) - Map Size : 0,{}
+[12:28:14][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[12:28:14][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[12:28:14][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[12:28:14][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[12:28:14][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[12:28:14][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[12:28:14][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[12:28:15][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[12:28:15][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[12:28:15][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[12:28:15][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[12:28:15][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[12:28:15][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[12:28:15][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[12:28:15][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[12:28:15][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[12:28:16][INFO ](DaoUtil.java:38) - Problems : PRB_01,03
+[12:28:16][INFO ](DaoUtil.java:38) - Problems : PRB_02,03
+[12:28:16][INFO ](DaoUtil.java:38) - Problems : PRB_03,03
+[12:28:16][INFO ](TestMinConditionalVaR.java:82) - Proble : PRB_02,BB
+[12:28:16][INFO ](TestMinConditionalVaR.java:86) - Segment Position : 0,{}
+[12:28:16][INFO ](TestMinConditionalVaR.java:110) - Map Size : 0,{}
+[12:29:13][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[12:29:13][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[12:29:13][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[12:29:13][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[12:29:13][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[12:29:13][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[12:29:13][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[12:29:14][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[12:29:14][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[12:29:14][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[12:29:14][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[12:29:14][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[12:29:14][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[12:29:14][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[12:29:14][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[12:29:14][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[12:29:15][INFO ](DaoUtil.java:38) - Problems : PRB_01,03
+[12:29:15][INFO ](DaoUtil.java:38) - Problems : PRB_02,03
+[12:29:15][INFO ](DaoUtil.java:38) - Problems : PRB_03,03
+[12:29:15][INFO ](TestMinConditionalVaR.java:82) - Proble : PRB_02,BB
+[12:29:15][INFO ](TestMinConditionalVaR.java:87) - Segment Position : 1,{}
+[12:29:15][INFO ](TestMinConditionalVaR.java:111) - Map Size : 0,{}
+[12:30:09][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[12:30:09][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[12:30:09][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[12:30:09][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[12:30:09][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[12:30:09][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[12:30:10][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[12:30:10][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[12:30:10][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[12:30:10][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[12:30:10][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[12:30:10][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[12:30:11][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[12:30:11][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[12:30:11][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[12:30:11][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[12:30:11][INFO ](DaoUtil.java:38) - Problems : PRB_01,03
+[12:30:11][INFO ](DaoUtil.java:38) - Problems : PRB_02,03
+[12:30:11][INFO ](DaoUtil.java:38) - Problems : PRB_03,03
+[12:30:11][INFO ](TestMinConditionalVaR.java:82) - Proble : PRB_02,BB
+[12:30:11][INFO ](TestMinConditionalVaR.java:87) - Segment Position : 1,GE
+[12:30:11][INFO ](TestMinConditionalVaR.java:111) - Map Size : 0,{}
+[12:48:10][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[12:48:10][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[12:48:10][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[12:48:10][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[12:48:10][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[12:48:10][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[12:48:10][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[12:48:10][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[12:48:11][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[12:48:11][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[12:48:11][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[12:48:11][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[12:48:11][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[12:48:11][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[12:48:11][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[12:48:11][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[12:48:12][INFO ](DaoUtil.java:38) - Problems : PRB_01,03
+[12:48:12][INFO ](DaoUtil.java:38) - Problems : PRB_02,03
+[12:48:12][INFO ](DaoUtil.java:38) - Problems : PRB_03,03
+[12:48:12][INFO ](TestMinConditionalVaR.java:82) - Proble : PRB_02,BB
+[12:48:50][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[12:48:50][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[12:48:50][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[12:48:50][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[12:48:50][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[12:48:50][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[12:48:51][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[12:48:51][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[12:48:51][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[12:48:51][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[12:48:51][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[12:48:51][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[12:48:51][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[12:48:51][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[12:48:51][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[12:48:52][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[12:48:52][INFO ](DaoUtil.java:38) - Problems : PRB_01,03
+[12:48:52][INFO ](DaoUtil.java:38) - Problems : PRB_02,03
+[12:48:52][INFO ](DaoUtil.java:38) - Problems : PRB_03,03
+[12:48:52][INFO ](TestMinConditionalVaR.java:82) - Proble : PRB_02,BB
+[12:48:52][INFO ](TestMinConditionalVaR.java:87) - Segment Position : 1,GE
+[12:48:52][INFO ](TestMinConditionalVaR.java:111) - Map Size : 0,{}
+[12:49:15][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[12:49:15][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[12:49:15][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[12:49:15][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[12:49:15][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[12:49:15][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[12:49:15][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[12:49:16][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[12:49:16][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[12:49:16][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[12:49:16][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[12:49:16][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[12:49:16][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[12:49:16][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[12:49:16][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[12:49:16][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[12:49:17][INFO ](DaoUtil.java:38) - Problems : PRB_01,03
+[12:49:17][INFO ](DaoUtil.java:38) - Problems : PRB_02,03
+[12:49:17][INFO ](DaoUtil.java:38) - Problems : PRB_03,03
+[12:49:17][INFO ](TestMinConditionalVaR.java:82) - Proble : PRB_02,BB
+[12:49:17][INFO ](TestMinConditionalVaR.java:87) - Segment Position : SEG_111,GE
+[12:49:17][INFO ](TestMinConditionalVaR.java:111) - Map Size : 0,{}
+[12:49:44][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[12:49:44][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[12:49:44][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[12:49:44][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[12:49:44][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[12:49:44][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[12:49:44][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[12:49:45][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[12:49:45][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[12:49:45][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[12:49:45][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[12:49:45][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[12:49:45][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[12:49:45][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[12:49:45][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[12:49:45][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[12:49:46][INFO ](DaoUtil.java:38) - Problems : PRB_01,03
+[12:49:46][INFO ](DaoUtil.java:38) - Problems : PRB_02,03
+[12:49:46][INFO ](DaoUtil.java:38) - Problems : PRB_03,03
+[12:49:46][INFO ](TestMinConditionalVaR.java:82) - Proble : PRB_01,GE
+[12:49:46][INFO ](TestMinConditionalVaR.java:87) - Segment Position : SEG_111,GE
+[12:49:46][INFO ](TestMinConditionalVaR.java:111) - Map Size : 0,{}
+[12:50:03][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[12:50:03][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[12:50:03][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[12:50:03][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[12:50:03][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[12:50:03][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[12:50:03][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[12:50:04][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[12:50:04][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[12:50:04][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[12:50:04][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[12:50:04][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[12:50:04][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[12:50:04][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[12:50:04][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[12:50:04][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[12:50:05][INFO ](DaoUtil.java:38) - Problems : PRB_01,03
+[12:50:05][INFO ](DaoUtil.java:38) - Problems : PRB_02,03
+[12:50:05][INFO ](DaoUtil.java:38) - Problems : PRB_03,03
+[12:50:05][INFO ](TestMinConditionalVaR.java:82) - Proble : PRB_01,GE
+[12:50:05][INFO ](TestMinConditionalVaR.java:87) - Segment Position : SEG_111,GE
+[12:50:05][INFO ](TestMinConditionalVaR.java:111) - Map Size : 0,{}

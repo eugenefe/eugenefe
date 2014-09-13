@@ -1,0 +1,36 @@
+[22:33:54][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[22:33:54][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[22:33:54][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[22:33:54][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[22:33:54][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[22:33:54][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[22:33:54][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[22:33:54][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[22:33:54][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[22:33:54][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[22:33:54][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[22:33:54][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[22:33:55][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[22:33:55][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[22:33:55][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[22:33:55][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[22:33:56][INFO ](TestMinConditionalVaR.java:68) - Proble : PRB_02,BB
+[22:33:56][INFO ](TestMinConditionalVaR.java:80) - Map Size : 0,{}
+[22:34:05][INFO ](Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+[22:34:05][INFO ](Version.java:41) - HHH000412: Hibernate Core {4.2.0.Final}
+[22:34:05][INFO ](Environment.java:239) - HHH000206: hibernate.properties not found
+[22:34:05][INFO ](Environment.java:342) - HHH000021: Bytecode provider name : javassist
+[22:34:05][INFO ](Configuration.java:1933) - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[22:34:05][INFO ](Configuration.java:1952) - HHH000040: Configuration resource: /hibernate.cfg.xml
+[22:34:05][INFO ](Configuration.java:2074) - HHH000041: Configured SessionFactory: null
+[22:34:05][INFO ](DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[22:34:05][INFO ](DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+[22:34:05][INFO ](DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: false
+[22:34:05][INFO ](DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@localhost:1521:orcl]
+[22:34:05][INFO ](DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=ERMAMS, password=****}
+[22:34:06][INFO ](Dialect.java:128) - HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[22:34:06][INFO ](TransactionFactoryInitiator.java:68) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[22:34:06][INFO ](ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+[22:34:06][INFO ](Version.java:27) - HV000001: Hibernate Validator 5.0.0.Alpha1
+[22:34:07][INFO ](TestMinConditionalVaR.java:68) - Proble : PRB_01,GE
+[22:34:07][INFO ](TestMinConditionalVaR.java:80) - Map Size : 0,{}
